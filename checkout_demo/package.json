@@ -1,0 +1,15 @@
+{
+  "name": "checkout_demo",
+  "version": "1.0.0",
+  "description": "开发购物车功能",
+  "main": "cart.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kt",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.2.6",
+    "vue-resource": "^1.3.1"
+  }
+}

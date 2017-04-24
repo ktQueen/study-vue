@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>仿select</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="../js/vue.js"></script>
+</head>
+<body>
+	<div id="app" style="overflow:hidden;">
+		<div style="float:left;">
+			<h2>自定义下拉框</h2>
+			<custom-select btn="查询" v-bind:list="list1"></custom-select>
+		</div>
+		<div style="float:left;">
+			<h2>自定义下拉框2</h2>
+			<custom-select btn="搜索" v-bind:list="list2"></custom-select>
+		</div>
+	</div>
+	<div id="app1">
+		<h2>自定义下拉框</h2>
+		<custom-select  btn="搜索1" v-bind:list="list"></custom-select>
+	</div>
+
+	<script>
+		Vue.component("custom-select",{
+			data:function(){
+				return {
+					selectShow:false,
+					val:""
+				}
+			},
+			props:["btn","list"],
+			template:`<section class="warp">
+						<div class="searchIpt clearFix">
+							<div class="clearFix">
+								<input type="text" class="keyWord" :value="val" @click="selectShow=!selectShow"/>
+								<input type="button" :value="btn">
+								<span></span>
+							</div>
+							<custom-list v-show="selectShow" :list="list" v-on:receive="changeValueHanle"></custom-list>
+						</div>
+					</section>`,
+			methods:{
+				changeValueHanle(value){
+					console.log("我被触发了,值为："+value);
+					this.val=value;
+				}
+			}
+		});
+		Vue.component('custom-list',{
+			props:["list"],
+			template:`<ul class="list">
+						<li v-for="item of list" @click="selectValueHandle(item)">{{item}}</li>
+					</ul>`,
+			methods:{
+				selectValueHandle(item){
+					//在子组件中有交互
+					//告知父级，改变val的值，需要出发一个自定义事件
+					console.log(item);
+					this.$emit('receive',item);
+				}
+			}
+		});
+		new Vue({
+			el:'#app',
+			data:{
+				list1:["北京","上海","杭州"],
+				list2:["17-02-17","17-02-18","17-02-19"]
+			}
+		});
+		new Vue({
+			el:'#app1',
+			data:{
+				list:["北京","上海","杭州12"],
+			}
+		});
+	</script>
+</body>
+</html>
