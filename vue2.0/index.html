@@ -11,21 +11,17 @@
 
 <body>
     <div id="root">
-        <h1 @click="handleClick">{{msg}}</h1>
+        <div :title="title">hello word</div>
+        <input type="text" v-model="content" />
+        <div>{{content}}</div>
     </div>
 </body>
 <script>
     new Vue({
         el: "#root", //表示与页面上的哪一个dom元素绑定
-        //template: '<h1>hello {{msg}}</h1>',
         data: {
-            msg: "hello world1",
-            number: 123
-        },
-        methods: {
-            handleClick: function() {
-                this.msg = "world";
-            }
+            title: "this is hello world",
+            content: 'this is content'
         }
     });
 </script>
