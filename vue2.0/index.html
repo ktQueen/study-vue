@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./vue.js"></script>
+</head>
+
+<body>
+    <div id="root">
+        <h1 @click="handleClick">{{msg}}</h1>
+    </div>
+</body>
+<script>
+    new Vue({
+        el: "#root", //表示与页面上的哪一个dom元素绑定
+        //template: '<h1>hello {{msg}}</h1>',
+        data: {
+            msg: "hello world1",
+            number: 123
+        },
+        methods: {
+            handleClick: function() {
+                this.msg = "world";
+            }
+        }
+    });
+</script>
+
+</html>
