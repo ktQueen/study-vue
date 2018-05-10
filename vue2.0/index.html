@@ -16,13 +16,24 @@
             <button @click="handleSubmit">提交</button>
         </div>
         <ul>
-            <li v-for="(item ,index) of list" :key="index">{{item}}</li>
+            <todo-item v-for="(item,index) of list" :key="index" :content="item">
+            </todo-item>
         </ul>
     </div>
 </body>
 <script>
+    Vue.component('todo-item', {
+        props: ['content'],
+        template: '<li>{{content}}</li>'
+    });
+    // var TodoItem = {
+    //     template: '<li>item</li>'
+    // }
     new Vue({
         el: "#root", //表示与页面上的哪一个dom元素绑定
+        // components: {
+        //     'todo-item': TodoItem
+        // },
         data: {
             inputValue: '',
             list: []
