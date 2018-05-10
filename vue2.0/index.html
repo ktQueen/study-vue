@@ -11,34 +11,23 @@
 
 <body>
     <div id="root">
-        姓：<input type="text" v-model="firstName"> 名：
-        <input type="text" v-model="lastName">
-        <div>{{fullName}}</div>
-        <div>{{count}}</div>
+        <div v-if="show">hello world</div>
+        <button @click="handleClick">toggle</button>
+        <ul>
+            <li v-for="(item ,index) of list" :key="index">{{item}}</li>
+        </ul>
     </div>
 </body>
 <script>
     new Vue({
         el: "#root", //表示与页面上的哪一个dom元素绑定
         data: {
-            firstName: '',
-            lastName: '',
-            count: 0
+            show: true,
+            list: [1, 2, 3]
         },
-        computed: {
-            fullName: function() {
-                return this.firstName + ' ' + this.lastName
-            }
-        },
-        watch: {
-            // firstName: function() {
-            //     this.count++;
-            // },
-            // lastName: function() {
-            //     this.count++;
-            // },
-            fullName: function() {
-                this.count++;
+        methods: {
+            handleClick: function() {
+                this.show = !this.show;
             }
         }
     });
