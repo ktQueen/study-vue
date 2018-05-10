@@ -11,8 +11,10 @@
 
 <body>
     <div id="root">
-        <div v-if="show">hello world</div>
-        <button @click="handleClick">toggle</button>
+        <div>
+            <input type="text" v-model="inputValue">
+            <button @click="handleSubmit">提交</button>
+        </div>
         <ul>
             <li v-for="(item ,index) of list" :key="index">{{item}}</li>
         </ul>
@@ -22,12 +24,13 @@
     new Vue({
         el: "#root", //表示与页面上的哪一个dom元素绑定
         data: {
-            show: true,
-            list: [1, 2, 3]
+            inputValue: '',
+            list: []
         },
         methods: {
-            handleClick: function() {
-                this.show = !this.show;
+            handleSubmit: function() {
+                this.list.push(this.inputValue);
+                this.inputValue = '';
             }
         }
     });
