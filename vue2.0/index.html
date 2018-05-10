@@ -16,18 +16,18 @@
             <button @click="handleSubmit">提交</button>
         </div>
         <ul>
-            <todo-item v-for="(item,index) of list" :key="index" :content="item">
+            <todo-item v-for="(item,index) of list" :key="index" :content="item" :index="index" @delete="handleDelete">
             </todo-item>
         </ul>
     </div>
 </body>
 <script>
     Vue.component('todo-item', {
-        props: ['content'],
-        template: '<li @click="handleClick">{{content}}</li>',
+        props: ['content', 'index'],
+        template: '<li @click="handleClick">{{content}}{{index}}</li>',
         methods: {
             handleClick: function() {
-                alert('clicked');
+                this.$emit('delete', this.index);
             }
         }
     });
@@ -47,6 +47,9 @@
             handleSubmit: function() {
                 this.list.push(this.inputValue);
                 this.inputValue = '';
+            },
+            handleDelete: function(index) {
+                this.list.splice(index, 1);
             }
         }
     });
