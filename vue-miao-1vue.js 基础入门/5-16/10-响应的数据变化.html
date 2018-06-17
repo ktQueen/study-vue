@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+		<style>
+			
+		</style>
+		<script src="./src/vue.js"></script>
+	</head>
+
+	<body>
+		<div id="app">
+			<p>{{msg}}</p>
+			<p>miaov.abc{{miaov.abc}}</p>
+			<p>{{miaov.ketang}}</p>
+		</div>
+		<script>
+
+			let vm = new Vue({
+				el: '#app',
+				data:{  // 只有计划好的数据，才能做相应reactive
+					msg: 'hello',
+					miaov:{
+						abc:123
+					}
+				}
+			})
+			// 这样做是不能够响应的
+			//vm.miaov.ketang = '我是新加的'
+
+			vm.miaov = Object.assign({},vm.miaov,{ketang:'123'})
+
+			// 调用Vue的静态方法set
+			// 语法：Vue.set(target,prop,value)
+
+			/*setTimeout(function (){
+				Vue.set(vm.miaov,'ketang','我是新加的')	
+			},2000)*/
+
+			//调用实例上的方法 $set
+			//vm.$set(vm.miaov,'ketang','我是新加的')
+
+
+
+		</script>
+	</body>
+</html>

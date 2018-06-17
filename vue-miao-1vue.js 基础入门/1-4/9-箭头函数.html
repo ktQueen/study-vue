@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+		<style>
+			
+		</style>
+		<script>
+
+			document.onclick = () => {
+				/*var that = this;
+				setTimeout(function (){
+					console.log(this);	//this => window
+					console.log(that);
+				},1000)	*/
+				// 箭头函数中this绑定的是所定义的作用域中的this
+				setTimeout(() => {
+					console.log(this);
+				},1000)
+
+				console.log(this);
+			}
+
+			/*function fn(){
+				console.log(this);
+			}
+
+			fn()
+
+			document.onclick = fn*/
+
+		</script>
+	</head>
+
+	<body>
+		
+	</body>
+</html>

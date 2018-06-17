@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+		<style>
+			
+		</style>
+		<script src="./src/vue.js"></script>
+	</head>
+
+	<body>
+		<div id="app">
+			<!--在元素上写了v-model，在写value值无效-->
+			<input type="text" v-model='message' value="hello" />
+			<input type="checkbox" v-model='checked' />
+			<p>{{message}}</p>
+		</div>
+		<script>
+
+			/*
+				input(text,checkbox,radio)
+				textarear
+				select
+
+				Vue中绑定事件
+					使用指令绑定
+					语法：v-on:事件名="表达式"
+
+				v-model
+					在表单元素上创建双向数据绑定
+					会根据控件类型自动选取正确的方法来更新元素交互的值
+					负责监听用户的输入事件以更新数据
+
+
+				数据 -> 页面 
+				页面 -> 数据
+			*/
+
+			var message = 'hello miaov';
+
+			var vm = new Vue({
+				el: '#app',
+				data:{
+					message, // messgae: message
+					checked: false
+				}
+			})
+
+
+		</script>
+	</body>
+</html>

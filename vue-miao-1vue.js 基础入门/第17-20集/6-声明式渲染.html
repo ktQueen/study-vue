@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+		<style>
+			
+		</style>
+		<script>
+			var arr = [1,2,3,4];
+			// 把数组中每一个属性X2，存在数组中
+
+			// 命令式
+			var newArr = [];
+			for( var i = 0; i < arr.length; i++ ){
+				newArr.push(arr[i]*2)
+			}
+			console.log(newArr);
+
+			// 声明式
+			let newArr2 = arr.map(item => item * 2);
+			console.log(newArr2);
+
+		</script>
+	</head>
+
+	<body>
+		
+	</body>
+</html>

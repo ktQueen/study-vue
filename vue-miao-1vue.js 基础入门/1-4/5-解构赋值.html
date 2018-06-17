@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+		<style>
+			
+		</style>
+		<script>
+			let arr = [1,2,3,4];
+
+			// let a = arr[0]
+			// let b = arr[1]
+			// let c = arr[2]
+
+			// 解构
+			var [a,b,c,d,e='默认值'] = [1,2,3,4];
+
+			console.log(a);
+			console.log(e);
+
+			var miaov = {
+				fn:function(){},
+				add: function(){alert(1)},
+				isFunction:function(){}
+			}
+
+			/*miaov.add()
+			miaov.isFunction()
+			miaov.fn()*/
+
+			let {add,isFunction,isArray=function(){}} = miaov;
+
+			console.log(add);
+			console.log(isFunction);
+
+			console.log(isArray);
+
+
+		</script>
+	</head>
+
+	<body>
+		
+	</body>
+</html>

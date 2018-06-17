@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+		<style>
+			
+		</style>
+		<script src="./src/vue.js"></script>
+	</head>
+
+	<body>
+		<div id="app">
+			<input type="text" v-model="val"  />
+			<input 
+				type="button" 
+				value="发送" 
+				v-on:click="sendHandle" 
+			/>
+			{{val}}
+			<ul>
+				<li v-for="item in list">{{item.title}}</li>
+			</ul>
+		</div>
+		<script>
+
+			/*
+				数据的方法；
+					push pop
+			*/
+
+			let list = [
+					{
+						id: 123,
+						title: '今天很开心'
+					}
+				]
+
+			// list一开始是没有值的，等到ajax取值回来了，在改写list
+
+			let vm = new Vue({
+				el: '#app',
+				data:{
+					list,
+					val:''
+				},
+				methods: {
+					sendHandle () {
+						console.log(this.val);
+						this.list.push({
+							id: Date.now(),
+							title: this.val
+						})
+
+						this.val = '';
+					}
+				}
+			})
+			// 模拟的请求的时间
+			/*setTimeout(function (){
+				vm.list = [
+					{
+						id: 123,
+						title: '今天很开心'
+					}
+				]	
+			},2000)*/
+
+		</script>
+	</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+		<style>
+			
+		</style>
+		<script>
+
+			/*function fn(option){
+				console.log(option.a);
+				console.log(option.b);
+				console.log(option.c);
+			}*/
+
+			function fn({a,b,c,d='get'}){
+				console.log(a);
+				console.log(b);
+				console.log(c);
+				console.log(d);
+			}
+
+			fn({
+				a:1,
+				b:2,
+				c:3,
+				d:'post'
+			})
+
+
+		</script>
+	</head>
+
+	<body>
+		
+	</body>
+</html>

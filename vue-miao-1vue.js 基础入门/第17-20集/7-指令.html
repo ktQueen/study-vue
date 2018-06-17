@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+		<style>
+			
+		</style>
+		<script src="./src/vue.js"></script>
+	</head>
+
+	<body>
+		
+		<div id="app">
+			<h2>{{news.title}}</h2>
+			<ul>
+				<li v-for="(value,index) in news.list">{{value}}</li>
+			</ul>
+		</div>
+
+		<script>
+			
+			/*
+				v-bind： 动态的绑定数据。简写为 :
+				v-on：监听 DOM 事件。简写为 @
+				v-for：对一组数据循环生成对应的结构
+				v-if：根据表达式的值的真假条件渲染元素和移出元素	
+				v-show：根据表达式的真假条件，切换元素的 CSS 属性 display属性
+
+			*/
+
+		</script>
+
+	</body>
+</html>

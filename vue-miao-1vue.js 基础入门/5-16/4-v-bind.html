@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+		<style>
+			
+		</style>
+		<script src="./src/vue.js"></script>
+	</head>
+
+	<body>
+		<div id="app">
+			<input type="text" name="">
+			<input type="checkbox"  />
+			<p v-bind:title="message">{{message}}</p>
+			<p v-bind:title="1+1">{{1+1}}</p>
+			<p title="[1,2,3].map(item=>item*2)">
+				{{[1,2,3].map(item=>item*2)}}
+			</p>
+		</div>
+		<script>
+
+			/*
+				input(text,checkbox,radio)
+				textarear
+				select
+
+				Vue中绑定事件
+
+				指令：
+					是一种特殊的自定义行间属性，以v-开头
+					将数据和DOM做关联，当表达式的值改变时，响应式地作用在视图
+					预期的值为javascript表达式
+
+					v-bind:属性名="表达式"
+			*/
+
+			var message = 'hello miaov';
+
+			var vm = new Vue({
+				el: '#app',
+				data:{
+					message // messgae: message
+				}
+			})
+
+
+		</script>
+	</body>
+</html>

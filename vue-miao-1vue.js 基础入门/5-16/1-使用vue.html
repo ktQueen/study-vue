@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+		<style>
+			
+		</style>
+		<script src="./src/vue.js"></script>
+	</head>
+
+	<body>
+		<div id="app">
+			<p>{{msg}}</p>
+			<p>假数据</p>
+		</div>
+		<script>
+			var message = 'hello,miaov';
+
+			// 根实例 启动应用
+			// 传入一个对象作为参数，称之为选项对象，告诉vue做什么事情
+			//var app = docuemnt.getElementById('#app')
+			new Vue({
+				el: '#app', // element 可以写css选择器 node
+				data:{  // 数据对象
+					msg:message
+				}
+			})
+
+		</script>
+	</body>
+</html>

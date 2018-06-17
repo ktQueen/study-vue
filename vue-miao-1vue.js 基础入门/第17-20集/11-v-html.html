@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+		<style>
+			
+		</style>
+		<script src="./src/vue.js"></script>
+	</head>
+
+	<body>
+		
+		<div id="app">
+			<input type="password"  id="pass" value="123" />
+			<p v-html="message"></p>
+		</div>
+
+		<script>
+			
+			// html必须是可靠的
+
+			var message = `<div>hello,我很友善</div><img src="./a.jpg" onerror="console.log(document.getElementById('pass').value);" />`;
+
+			var vm = new Vue({
+				el: '#app',
+				data:{
+					message
+				}
+			})	
+
+		</script>
+
+	</body>
+</html>

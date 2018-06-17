@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+		<style>
+			.red {
+				background: red;
+			}
+			#app div {
+				display: none;
+			}
+		</style>
+		<script src="./src/vue.js"></script>
+	</head>
+
+	<body>
+		<div id="app">
+			<input 
+				v-for="item in tabData" 
+				type="button" 
+				v-bind:value="item.title" 
+			/>
+			<div style="display: block;">
+				<p>今天很好</p>
+				<p>今天很好</p>
+				<p>今天很好</p>
+			</div>
+			<div>
+				<p>结婚了</p>
+				<p>出轨了</p>
+			</div>
+			<div>
+				<p>冠军</p>
+				<p>冠军</p>
+			</div>
+		</div>
+		<script>
+
+			let tabData = [
+				{
+					title:"新闻",
+					list: [
+						{
+							subTitle:'今天很好'
+						},
+						{
+							subTitle:'今天很好'
+						},
+						{
+							subTitle:'今天很好'
+						}
+					]
+				},
+				{
+					title:'娱乐',
+					list: [
+						{
+							subTitle:'结婚了'
+						},
+						{
+							subTitle:'出轨了'
+						}
+					]
+				},
+				{
+					title:'体育',
+					list: [
+						{
+							subTitle:'冠军'
+						},
+						{
+							subTitle:'冠军'
+						}
+					]
+				}
+			]
+			
+
+			let vm = new Vue({
+				el: '#app',
+				data:{  // 只有计划好的数据，才能做相应reactive
+					tabData
+				}
+			})
+
+
+		</script>
+	</body>
+</html>

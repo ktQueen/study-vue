@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+		<style>
+			
+		</style>
+		<script src="./src/vue.js"></script>
+	</head>
+
+	<body>
+		<div id="app">
+			<p>{{message}}</p>
+		</div>
+		<script>
+
+			/*自带交互属性
+				input(text,checkbox,radio)
+				textarear
+				select
+			*/
+
+			var message = 'hello miaov';
+
+			new Vue({
+				el: '#app',
+				data:{
+					message // messgae: message
+				}
+			})
+
+
+		</script>
+	</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+		<style>
+			
+		</style>
+		<script src="./src/vue.js"></script>
+	</head>
+
+	<body>
+		<div id="app">
+			<p>{{msg}}</p>
+			<p>假数据</p>
+		</div>
+		<script>
+			var message = 'hello,miaov';
+
+			var vm = new Vue({
+					el: '#app', // element 可以写css选择器 node
+					data:{  // 数据对象 上的属性都会放在实例上
+						msg:message
+					}
+				})
+
+			console.log(vm.msg);
+
+		</script>
+	</body>
+</html>

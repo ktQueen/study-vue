@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+		<style>
+			
+		</style>
+		<script>
+			/*
+				arr.map()
+			*/
+
+			var arr = [1,2,3,4,5,6,7,8,9];
+
+			// 数组的每一项都乘上2，放在新数组中
+
+			arr.forEach(function (item,index){
+				console.log(item,index);
+			})
+			// 对每一项进行处理，放在新数组中
+			var newArr = arr.map(function(item,index){
+				console.log(item,index);
+				return item * 2;
+			})
+			//console.log(newArr === arr);
+			console.log(newArr);
+
+			var filterNewArr = arr.filter(function(item,index){
+				console.log(item,index);
+				//return true
+				//return false
+				// return后面写条件，如果条件成立就放在新数组中
+				// 不成立就忽略
+				return item % 2 === 0
+			})
+
+			console.log(filterNewArr);
+
+			
+
+
+		</script>
+	</head>
+
+	<body>
+		
+	</body>
+</html>

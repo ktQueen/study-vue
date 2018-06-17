@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+		<style>
+			
+		</style>
+		<script>
+
+			// Object.assign(target,[要合并的对象1,要合并的对象2,。。。。])
+
+			var o = {a:1}
+			var o1 = {b:2}
+			var o2 = {c:3}
+
+			Object.assign(o,o1,o2);
+
+			console.log(o);
+
+			function fn(option){
+				let defaults = {
+					a:'默认1',
+					b:'默认2',
+					c:'默认3'
+				}
+				
+				Object.assign(defaults,option);
+
+				console.log(defaults);
+			}
+
+			fn({
+				a:1,
+				b:2
+			})
+
+		</script>
+	</head>
+
+	<body>
+		
+	</body>
+</html>

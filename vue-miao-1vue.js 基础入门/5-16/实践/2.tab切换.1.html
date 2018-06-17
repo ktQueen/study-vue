@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../src/vue.js"></script>
+    <style>
+        .red {
+            background: red;
+        }
+        
+        #app div {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <input type="button" v-for="item,i in tabData" v-bind:value="item.title" v-bind:class="{red:i===index}" v-on:click="tabHandle($event,i)">
+        <div v-for="item,j in tabData" v-bind:style="{display:j===index?'block':'none'}">
+            <p v-for="option in item.child">{{option.subTitle}}</p>
+        </div>
+    </div>
+    <script>
+        let tabData = [{
+            title: '新闻',
+            child: [{
+                subTitle: '今天天气好1'
+            }, {
+                subTitle: '今天天气好2'
+            }, {
+                subTitle: '今天天气好3'
+            }]
+        }, {
+            title: '体育',
+            child: [{
+                subTitle: '足球世界杯'
+            }, {
+                subTitle: '篮球NBA'
+            }]
+        }, {
+            title: '娱乐',
+            child: [{
+                subTitle: '红毯'
+            }, {
+                subTitle: '影后'
+            }]
+        }];
+        let vm = new Vue({
+            el: '#app',
+            data() {
+                return {
+                    tabData, //数据
+                    index: 1 //当前选中选项位置
+                };
+            },
+            methods: {
+                tabHandle(ev, i) {
+                    console.log(i);
+                    this.index = i;
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			body,
+			ul,
+			li {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+			.list-body li:nth-child(even) {
+				background: yellow;
+			}
+			.list-body li:nth-child(odd) {
+				background: #fff;
+			}
+			.list-body li:hover {
+				background: green;
+			}
+			.list-body li.checkedColor {
+				background: green;
+			}
+		</style>
+		<link rel="stylesheet" type="text/css" href="css/baidu.css" />
+		<script src="../src/vue.js"></script>
+		<script>
+			let data = [
+				{
+					id:Date.now()+Math.random(),
+					name: '邓紫棋',
+					song: '泡沫',
+					checked: true,
+					album: 10
+				},
+				{
+					id:Date.now()+Math.random(),
+					name: '王杰',
+					song: '泡沫',
+					checked: true,
+					album: 10
+				},
+				{
+					id:Date.now()+Math.random(),
+					name: '邓紫棋',
+					song: '泡沫123',
+					checked: false,
+					album: 10
+				}
+			]
+		</script>
+	</head>
+
+	<body>
+		<div class="wrap" id="app">
+			<div class="baidu">
+				<ul class="list list-head">
+					<li>
+						<div>
+							<input type="checkbox" v-model='isCheckedAll' />全选
+						</div>
+						<span>歌单</span>
+						<span>歌手</span>
+						<span>专辑</span>
+					</li>
+				</ul>
+				<ul class="list list-body">
+					<li 
+						v-for="item in songList"
+					>
+						<div>
+							<input v-model="item.checked" type="checkbox">
+						</div>
+						<span>{{item.song}}</span>
+						<span>{{item.name}}</span>
+						<span>{{item.album}}</span>
+					</li>
+				</ul>
+				<div class="select">
+					<span class="selectAll">
+
+						<span>统计：</span>
+					</span>
+					<div class="others">
+						<span><em></em>选中的歌手有：{{selectedSongersLen}}位</span>
+						<span><em></em>专辑有{{album}}张</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			
+
+			new Vue({
+				el: '#app',
+				data: {
+					songList: data
+				},
+				computed: {
+					// 定义了计算属性，没有使用，那不会执行这个函数
+					isCheckedAll(){
+						// every方法，当数组中每一项都满足某个条件，返回true，只要有一项不满足，就返回false
+						let bl = this.songList.every(function(item){
+							return item.checked
+						})
+
+						return bl;
+
+						console.log(bl);
+					},
+					selectedSongersLen(){
+						let songer = this.songList.filter(item => item.checked)
+						return fn(songer).length
+					},
+					album () {
+						/*return this.songList.filter(item => item.checked).reduce((n,item2) => n + item2.album,0)*/
+						let n = 0;
+						this.songList.forEach(function (item){
+							n += item.album 
+						})
+
+						return n;
+					}
+				}
+
+			})
+			// ['soner':'']
+			function fn(option){
+				var json = {};
+				var arr = [];
+				option.forEach((item) => {
+					console.log(json[item.name]);
+					if(!json[item.name]){
+						json[item.name] = true;
+						arr.push(item)
+					}
+				})
+				console.log(arr);
+				return arr;
+			}
+
+		</script>
+	</body>
+
+</html>

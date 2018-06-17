@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+		<style>
+			.red {
+				background: red;
+			}
+			#app div {
+				display: none;
+			}
+		</style>
+		<script src="./src/vue.js"></script>
+	</head>
+
+	<body>
+		<div id="app">
+			<input type="text" v-model="message" />
+			<p>{{message}}</p>
+			<p>{{reverserMessage}}</p>
+
+			
+		</div>
+		<script>
+
+			let vm = new Vue({
+				el: '#app',
+				data:{
+					message: 'miaovketang',
+					list: [1,2,3,4,5]
+				},
+				computed : {  
+					// 计算属性中依赖了data中的数据，data中的数据发生变化，计算属性会重新计算
+					reverserMessage(){
+						return this.message.split('').reverse().join('')
+					}
+				}
+			})
+
+			//console.log(vm);
+
+
+		</script>
+	</body>
+</html>
