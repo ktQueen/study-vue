@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+		<style>
+			
+		</style>
+		<script src="./vue.js"></script>
+	</head>
+
+	<body>
+		<div id="app">
+			<p>{{miaov}}</p>
+		</div>
+		<script>
+			// 页面 = 数据+模板
+
+			let message = 'hello miaov';
+
+			let vm = new Vue({
+				el: '#app',
+				data: {
+					miaov: message
+				}
+			})
+			let n = 0;
+			setInterval(function (){
+				vm.miaov = ++n	
+			},1000)
+
+			console.log(vm);
+
+		</script>
+	</body>
+</html>

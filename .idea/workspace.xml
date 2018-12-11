@@ -2,6 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7989721c-a148-4049-9748-d725e72a0dde" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2017-12-28（1-4集）公开课课件/1-vue基础知识点.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2017-12-28（1-4集）公开课课件/2-指令.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2017-12-28（1-4集）公开课课件/2017-12-28公开课.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2017-12-28（1-4集）公开课课件/2017-12-28公开课.ppt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2017-12-28（1-4集）公开课课件/3-计算属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2017-12-28（1-4集）公开课课件/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2017-12-28（1-4集）公开课课件/案例/qq-friends/imgs/bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2017-12-28（1-4集）公开课课件/案例/qq-friends/qqFriends.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2017-12-28（1-4集）公开课课件/案例/qq-friends/qqFriends.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2017-12-28（1-4集）公开课课件/案例/tab/2-tab.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2017-12-28（1-4集）公开课课件/案例/tab/tab.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2017-12-28（1-4集）公开课课件/案例/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2017-12-28（1-4集）公开课课件/案例/穿梭框/2穿梭框.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2017-12-28（1-4集）公开课课件/案例/穿梭框/3-穿梭框.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2017-12-28（1-4集）公开课课件/案例/穿梭框/4-穿梭框.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2017-12-28（1-4集）公开课课件/案例/穿梭框/穿梭框.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2018-01-04公开课课件/project-vue/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2018-01-04公开课课件/project-vue/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2018-01-04公开课课件/project-vue/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2018-01-04公开课课件/project-vue/.postcssrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2018-01-04公开课课件/project-vue/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2018-01-04公开课课件/project-vue/build/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2018-01-04公开课课件/project-vue/build/check-versions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2018-01-04公开课课件/project-vue/build/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2018-01-04公开课课件/project-vue/build/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2018-01-04公开课课件/project-vue/build/vue-loader.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2018-01-04公开课课件/project-vue/build/webpack.base.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2018-01-04公开课课件/project-vue/build/webpack.dev.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2018-01-04公开课课件/project-vue/build/webpack.prod.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2018-01-04公开课课件/project-vue/config/dev.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2018-01-04公开课课件/project-vue/config/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2018-01-04公开课课件/project-vue/config/prod.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2018-01-04公开课课件/project-vue/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2018-01-04公开课课件/project-vue/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2018-01-04公开课课件/project-vue/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2018-01-04公开课课件/project-vue/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2018-01-04公开课课件/project-vue/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2018-01-04公开课课件/project-vue/src/components/hello.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2018-01-04公开课课件/project-vue/src/components/hello2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2018-01-04公开课课件/project-vue/src/components/miaov.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2018-01-04公开课课件/project-vue/src/components/miaov2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2018-01-04公开课课件/project-vue/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2018-01-04公开课课件/project-vue/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2018-01-04公开课课件/project-vue/src/store/index2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2018-01-04公开课课件/project-vue/static/.gitkeep" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,16 +75,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="56" />
-          <entry key="js" value="1" />
+          <entry key="html" value="57" />
+          <entry key="js" value="2" />
           <entry key="md" value="2" />
           <entry key="vue" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="56" />
-          <entry key="JavaScript" value="1" />
+          <entry key="HTML" value="57" />
+          <entry key="JavaScript" value="2" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Vue.js" value="1" />
         </counts>
@@ -61,7 +106,22 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2017-12-28（1-4集）公开课课件/案例/tab/tab.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2018-01-04公开课课件/project-vue/src/store/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -115,6 +175,7 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
+      <path value="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2018-01-04公开课课件/project-vue/package.json" />
       <path value="$PROJECT_DIR$/todolist/package.json" />
       <path value="$PROJECT_DIR$/vue1.0/checkout_demo/package.json" />
       <path value="$PROJECT_DIR$/vue3.0/package.json" />
@@ -136,17 +197,6 @@
               <item name="vue" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="vue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
-              <item name="miao-02.vue.js实战开发系列" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
-              <item name="miao-02.vue.js实战开发系列" type="462c0819:PsiDirectoryNode" />
-              <item name="《vue.js实战开发系列》20170107课件" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -162,11 +212,12 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE" />
+      <recent name="$PROJECT_DIR$/01.vue(official-network)" />
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/01.vue(official-network)" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -198,15 +249,16 @@
       <workItem from="1536887631069" duration="2075000" />
       <workItem from="1537146344504" duration="159000" />
       <workItem from="1539433154208" duration="1009000" />
-      <workItem from="1544522539316" duration="144000" />
+      <workItem from="1544522539316" duration="1425000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14853000" />
+    <option name="totallyTimeSpent" value="16125000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -234,14 +286,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vue2.0/vue.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue2.0/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-279" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -460,6 +504,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/miao-01.vue.js 基础入门/17-20/12-v-cloak.html">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2017-12-28（1-4集）公开课课件/案例/tab/tab.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miao-03.精品实战案例，四步搞定 VUE/2018-01-04公开课课件/project-vue/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

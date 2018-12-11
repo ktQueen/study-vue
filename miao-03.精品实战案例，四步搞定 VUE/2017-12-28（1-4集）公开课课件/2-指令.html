@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+		<style>
+			
+		</style>
+		<script src="./vue.js"></script>
+	</head>
+
+	<body>
+		<div id="app">
+			<ul>
+				<li @click="handler(i)" v-for="abc,i in list">{{abc}}</li>
+			</ul>
+		</div>
+		<script>
+			// 页面 = 数据+模板
+			// 指令
+			/*
+				v-for 循环列表
+					语法：v-for="值,下标 in 数组"
+				v-on：绑定事件，简写:@
+
+			*/
+
+
+			let vm = new Vue({
+				el: '#app',
+				data: {
+					list:[1,2,3,4]
+				},
+				methods: {  // 在模板中使用的函数，定义在这里
+					handler (index) {
+						alert(index)
+					}
+				}
+			})
+
+		</script>
+	</body>
+</html>
