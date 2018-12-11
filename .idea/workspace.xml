@@ -2,117 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7989721c-a148-4049-9748-d725e72a0dde" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.vue(official-network)/01.声明式渲染-hello word.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.vue(official-network)/02.声明式渲染v-bind.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.vue(official-network)/03.条件与循环v-if.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.vue(official-network)/04.条件与循环v-for.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.vue(official-network)/05.处理用户输入v-on.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.vue(official-network)/06.处理用户输入v-model.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.vue(official-network)/07.组件化应用构建.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.vue(official-network)/08.vue实例.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.vue(official-network)/09.计算属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.vue(official-network)/10.计算属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.vue(official-network)/11.监听器watch.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.vue(official-network)/12.todo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/1-4/1-声明变量.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/1-4/1-声明变量.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/1-4/10-函数的扩展.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/1-4/10-函数的扩展.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/1-4/11-函数的扩展.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/1-4/11-函数的扩展.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/1-4/12-对象扩展.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/1-4/12-对象扩展.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/1-4/13-Object.assign().html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/1-4/13-Object.assign().html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/1-4/14-扩展运算符.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/1-4/14-扩展运算符.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/1-4/15-map.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/1-4/15-map.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/1-4/16-find.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/1-4/16-find.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/1-4/2-声明变量.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/1-4/2-声明变量.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/1-4/3-声明变量.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/1-4/3-声明变量.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/1-4/4-声明变量.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/1-4/4-声明变量.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/1-4/5-解构赋值.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/1-4/5-解构赋值.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/1-4/6-解构赋值.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/1-4/6-解构赋值.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/1-4/7-模板字符串.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/1-4/7-模板字符串.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/1-4/8-箭头函数.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/1-4/8-箭头函数.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/1-4/9-箭头函数.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/1-4/9-箭头函数.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/17-20/1-启动vue应用.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/17-20/1-启动vue应用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/17-20/10-v-text.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/17-20/10-v-text.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/17-20/11-v-html.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/17-20/11-v-html.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/17-20/12-v-cloak.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/17-20/12-v-cloak.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/17-20/13-v-once.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/17-20/13-v-once.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/17-20/14-v-on事件.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/17-20/14-v-on事件.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/17-20/2-Object.defineProperty.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/17-20/2-Object.defineProperty.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/17-20/3-Object.defineProperty.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/17-20/3-Object.defineProperty.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/17-20/4-Object.defineProperty.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/17-20/4-Object.defineProperty.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/17-20/5-Object.defineProperty.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/17-20/5-Object.defineProperty.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/17-20/6-声明式渲染.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/17-20/6-声明式渲染.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/17-20/7-指令.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/17-20/7-指令.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/17-20/8-双向数据绑定.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/17-20/8-双向数据绑定.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/17-20/9-v-text.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/17-20/9-v-text.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/17-20/src/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/17-20/src/vue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/1-使用vue.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/1-使用vue.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/10-响应的数据变化.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/10-响应的数据变化.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/11-响应的数据变化-数组.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/11-响应的数据变化-数组.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/12-条件判断.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/12-条件判断.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/13-条件判断.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/13-条件判断.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/14-选项卡.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/14-选项卡.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/15-选项卡.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/15-选项卡.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/16-事件处理函数中事件对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/16-事件处理函数中事件对象.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/17-计算属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/17-计算属性.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/18-计算属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/18-计算属性.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/19-计算属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/19-计算属性.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/2-使用vue.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/2-使用vue.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/3-使用vue.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/3-使用vue.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/4-v-bind.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/4-v-bind.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/5-v-on.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/5-v-on.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/6-v-for.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/6-v-for.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/6-v-model.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/6-v-model.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/7-简易的留言板.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/7-简易的留言板.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/8-响应的数据变化.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/8-响应的数据变化.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/9-响应的数据变化.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/9-响应的数据变化.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/src/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/src/vue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子-静态布局/todolist-static-web/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子-静态布局/todolist-static-web/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子-静态布局/todolist-static-web/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子-静态布局/todolist-static-web/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子-静态布局/todolist-static-web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子-静态布局/todolist-static-web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子-静态布局/商品筛选/img/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子-静态布局/商品筛选/img/bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子-静态布局/商品筛选/img/nav_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子-静态布局/商品筛选/img/nav_bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子-静态布局/商品筛选/img/type_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子-静态布局/商品筛选/img/type_bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子-静态布局/商品筛选/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子-静态布局/商品筛选/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子-静态布局/好友列表/css/qq.css" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子-静态布局/好友列表/css/qq.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子-静态布局/好友列表/img/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子-静态布局/好友列表/img/bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子-静态布局/好友列表/img/bg1.png" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子-静态布局/好友列表/img/bg1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子-静态布局/好友列表/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子-静态布局/好友列表/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子-静态布局/百度音乐全选/css/baidu.css" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子-静态布局/百度音乐全选/css/baidu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子-静态布局/百度音乐全选/img/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子-静态布局/百度音乐全选/img/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子-静态布局/百度音乐全选/img/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子-静态布局/百度音乐全选/img/bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子-静态布局/百度音乐全选/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子-静态布局/百度音乐全选/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子-静态布局/百度音乐全选/百度音乐.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子-静态布局/百度音乐全选/百度音乐.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子/src/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子/src/vue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子/todolist-static-web/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子/todolist-static-web/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子/todolist-static-web/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子/todolist-static-web/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子/todolist-static-web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子/todolist-static-web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子/商品筛选/2-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子/商品筛选/2-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子/商品筛选/3-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子/商品筛选/3-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子/商品筛选/img/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子/商品筛选/img/bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子/商品筛选/img/nav_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子/商品筛选/img/nav_bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子/商品筛选/img/type_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子/商品筛选/img/type_bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子/商品筛选/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子/商品筛选/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子/好友列表/css/qq.css" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子/好友列表/css/qq.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子/好友列表/img/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子/好友列表/img/bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子/好友列表/img/bg1.png" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子/好友列表/img/bg1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子/好友列表/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子/好友列表/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子/百度音乐全选/2-百度音乐.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子/百度音乐全选/2-百度音乐.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子/百度音乐全选/css/baidu.css" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子/百度音乐全选/css/baidu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子/百度音乐全选/img/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子/百度音乐全选/img/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子/百度音乐全选/img/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子/百度音乐全选/img/bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子/百度音乐全选/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子/百度音乐全选/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/例子/百度音乐全选/百度音乐.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/例子/百度音乐全选/百度音乐.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/实践/1.简单的留言板.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/实践/1.简单的留言板.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/实践/2.tab切换.1.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/实践/2.tab切换.1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/实践/3.商品筛选.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/实践/3.商品筛选.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/实践/4.好友列表.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/实践/4.好友列表.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/5-16/实践/5.百度音乐.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/实践/5.百度音乐.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-miao-1vue.js 基础入门/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue2018-06-13/01.10秒入门vue.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.vue(official-network)/00.10秒入门vue.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue2018-06-13/02.双向数据绑定.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.vue(official-network)/00.双向数据绑定.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue2018-06-13/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/01.vue(official-network)/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -127,17 +17,20 @@
     <session id="-1558534484">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="26" />
+          <entry key="html" value="56" />
           <entry key="js" value="1" />
           <entry key="md" value="2" />
           <entry key="vue" value="1" />
@@ -145,7 +38,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="26" />
+          <entry key="HTML" value="56" />
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Vue.js" value="1" />
@@ -168,27 +61,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/15-选项卡.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/02.vue.js 基础入门-miao/17-20/2-Object.defineProperty.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02.vue.js 基础入门-miao/17-20/1-启动vue应用.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -256,7 +129,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -267,18 +139,19 @@
             <path>
               <item name="vue" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue" type="462c0819:PsiDirectoryNode" />
-              <item name="02.vue.js 基础入门-miao" type="462c0819:PsiDirectoryNode" />
+              <item name="miao-02.vue.js实战开发系列" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vue" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue" type="462c0819:PsiDirectoryNode" />
-              <item name="02.vue.js 基础入门-miao" type="462c0819:PsiDirectoryNode" />
-              <item name="17-20" type="462c0819:PsiDirectoryNode" />
+              <item name="miao-02.vue.js实战开发系列" type="462c0819:PsiDirectoryNode" />
+              <item name="《vue.js实战开发系列》20170107课件" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -289,6 +162,9 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/01.vue(official-network)" />
       <recent name="$PROJECT_DIR$" />
@@ -319,16 +195,18 @@
       <workItem from="1535687440596" duration="6762000" />
       <workItem from="1536392796375" duration="1485000" />
       <workItem from="1536542018246" duration="3210000" />
-      <workItem from="1536887631069" duration="62000" />
+      <workItem from="1536887631069" duration="2075000" />
+      <workItem from="1537146344504" duration="159000" />
+      <workItem from="1539433154208" duration="1009000" />
+      <workItem from="1544522539316" duration="144000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11519000" />
+    <option name="totallyTimeSpent" value="14853000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -469,18 +347,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02.vue.js 基础入门-miao/5-16/15-选项卡.html">
+    <entry file="file://$PROJECT_DIR$/miao-01.vue.js 基础入门/5-16/15-选项卡.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/02.vue.js 基础入门-miao/17-20/1-启动vue应用.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02.vue.js 基础入门-miao/17-20/2-Object.defineProperty.html">
+    <entry file="file://$PROJECT_DIR$/miao-01.vue.js 基础入门/17-20/2-Object.defineProperty.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
+        <state relative-caret-position="436">
           <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miao-01.vue.js 基础入门/5-16/6-v-for.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-147" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miao-01.vue.js 基础入门/1-4/1-声明变量.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miao-01.vue.js 基础入门/1-4/2-声明变量.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miao-01.vue.js 基础入门/1-4/3-声明变量.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miao-01.vue.js 基础入门/1-4/4-声明变量.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miao-01.vue.js 基础入门/1-4/5-解构赋值.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miao-01.vue.js 基础入门/1-4/6-解构赋值.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miao-01.vue.js 基础入门/1-4/7-模板字符串.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miao-01.vue.js 基础入门/1-4/8-箭头函数.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miao-01.vue.js 基础入门/1-4/9-箭头函数.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miao-01.vue.js 基础入门/1-4/10-函数的扩展.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miao-01.vue.js 基础入门/1-4/11-函数的扩展.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miao-01.vue.js 基础入门/1-4/12-对象扩展.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miao-01.vue.js 基础入门/1-4/13-Object.assign().html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miao-01.vue.js 基础入门/1-4/14-扩展运算符.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miao-01.vue.js 基础入门/1-4/15-map.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miao-01.vue.js 基础入门/1-4/16-find.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miao-01.vue.js 基础入门/5-16/1-使用vue.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miao-01.vue.js 基础入门/5-16/2-使用vue.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miao-01.vue.js 基础入门/5-16/3-使用vue.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miao-01.vue.js 基础入门/5-16/4-v-bind.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miao-01.vue.js 基础入门/5-16/8-响应的数据变化.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miao-01.vue.js 基础入门/5-16/9-响应的数据变化.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miao-01.vue.js 基础入门/5-16/10-响应的数据变化.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miao-01.vue.js 基础入门/5-16/11-响应的数据变化-数组.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miao-01.vue.js 基础入门/17-20/1-启动vue应用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miao-01.vue.js 基础入门/17-20/9-v-text.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miao-01.vue.js 基础入门/17-20/10-v-text.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="16" selection-start-column="1" selection-end-line="29" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miao-01.vue.js 基础入门/17-20/11-v-html.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miao-01.vue.js 基础入门/17-20/12-v-cloak.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
