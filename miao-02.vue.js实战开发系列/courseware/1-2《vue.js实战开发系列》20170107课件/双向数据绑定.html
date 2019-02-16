@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script src="./vue.js"></script>
+    <script src="vue.js"></script>
 
 </head>
 <body>
     <!--模板-->
     <div id="demo">
-        {{ message }}
+        <input type="text" v-model="message" />
+        <p>{{message}}</p>
     </div>
     <script>
         //数据
@@ -22,8 +23,6 @@
             el:"#demo",  //挂载元素
             data:data
         });
-
-        console.dir(document);
 
     </script>
 </body>

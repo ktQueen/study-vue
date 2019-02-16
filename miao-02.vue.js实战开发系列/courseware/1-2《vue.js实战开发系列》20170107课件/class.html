@@ -3,27 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script src="./vue.js"></script>
+    <style>
+        .red{
+            color: red;
+        }
+        .fontSize{
+            font-size: 50px;
+        }
+    </style>
+    <script src="vue.js"></script>
 
 </head>
 <body>
     <!--模板-->
     <div id="demo">
-        <span :cutomId="id">{{ message }}</span>
+        <span class="fontSize" :class='{red:addClass}'>hello,miaov</span>
     </div>
     <script>
         //数据
         let obj = {
-            message:"hello,Vue!",
-            id:"123"
-        }
-        //声明式渲染
+            addClass:false
+        };
+
         var vm = new Vue({
             el:"#demo",
             data:obj
         });
-
-        console.log( vm.$data );
 
     </script>
 </body>

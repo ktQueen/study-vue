@@ -3,32 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script src="./vue.js"></script>
+    <script src="vue.js"></script>
 
 </head>
 <body>
     <!--模板-->
     <div id="demo">
-        <span>miaov ke tang</span>
+        <span v-on:click="clickHandle">{{ message }}</span>
     </div>
-    <script type="x-template" id="temp">
-        <div>
-            hello,{{abc}},
-            <span>miaov</span>
-        </div>
-    </script>
     <script>
         //数据
         let obj = {
-            html:"<div>hello,miaov</div>",
-            abc:1
-        };
-
+            message:"hello,Vue!"
+        }
+        //声明式渲染
         var vm = new Vue({
             el:"#demo",
             data:obj,
-            template:"#temp"
+            methods:{
+                clickHandle(){
+                    alert("click")
+                }
+            }
         });
+
+        console.log( vm.$data );
 
     </script>
 </body>

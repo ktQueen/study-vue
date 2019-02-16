@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script src="./vue.js"></script>
+    <script src="vue.js"></script>
 
 </head>
 <body>
@@ -12,7 +12,10 @@
         <span>miaov ke tang</span>
     </div>
     <script type="x-template" id="temp">
-        
+        <div>
+            hello,{{abc}},
+            <span>miaov</span>
+        </div>
     </script>
     <script>
         //数据
@@ -21,14 +24,10 @@
             abc:1
         };
 
-        var str = `<div>hello,{{abc}},
-        <span>miaov</span>
-        </div>`;
-
         var vm = new Vue({
             el:"#demo",
             data:obj,
-            template:str
+            template:"#temp"
         });
 
     </script>
