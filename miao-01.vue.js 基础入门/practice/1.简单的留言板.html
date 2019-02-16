@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../courseware/5-16/src/vue.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <input type="text" v-model="val">
+        <button v-on:click="submit">提交</button>
+        <ul>
+            <li v-for="item in list">{{item.title}}</li>
+        </ul>
+    </div>
+    <script>
+        const list = [{
+            id: '1',
+            title: '啦啦发'
+        }];
+        let vm = new Vue({
+            el: '#app',
+            data() {
+                return {
+                    list: [],
+                    val: ''
+                };
+            },
+            methods: {
+                submit() {
+                    this.list.push({
+                        id: Date.now(),
+                        title: this.val
+                    });
+                    this.val = '';
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
